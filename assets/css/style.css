@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-geral{
+    width: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 7px 7px 20px #96c4c3;
+}
+
+.join{
+    background-color: aliceblue;
+    padding: 45px;
+}
+
+.join h1{
+    font-weight: 700;
+    color: #2bb3b1;
+    font-size: 24px;
+}
+
+.join h3{
+    color:#bfdf32;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.join p{
+    color:#999;
+    line-height: 24px;
+}
+
+.sect{
+    display: flex;
+}
+
+.monsub{
+    padding: 45px;
+    background-color: #2bb3b1;
+    flex: 1;
+    color: #fff;
+}
+
+.monsub h2{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.monsub .value{
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.monsub .month{
+    color: rgb(218, 218, 218);
+    font-size: 14px;
+}
+
+.monsub p {
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+
+.monsub button{
+    border: none;
+    width: 210px;
+    height: 40px;
+    background-color: #bfdf32;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 3px 3px 5px #239694;
+}
+
+.monsub button:hover{
+    background-color: #9bb913;
+}
+.whyus{
+    color: #fff;
+    padding: 45px;
+    flex: 1;
+    background-color: #4abebd;
+}
+
+.whyus h2{
+    padding-bottom: 20px;
+}
+
+.whyus p{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(233, 233, 233);
+}
+
+@media (max-width: 650px){
+    .box-geral{
+        width: 450px;
+    }
+
+    .sect{
+        display: block;
+    }
+}
